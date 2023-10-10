@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li a.active {
+  font-weight: bold;
+}
+.movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-card {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+}
+.movie-card h2 {
+  margin: 10px 0;
+}
+.movie-card p {
+  margin: 5px 0;
+}
+#add-movie-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+#add-movie-form h2 {
+  margin-bottom: 10px;
+}
+#add-movie-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#add-movie-form input,
+#add-movie-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#add-movie-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#add-movie-form button:hover {
+  background-color: #444;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#movie-search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  margin-right: 0;
+}
+#search-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+#search-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 50);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input,
+form select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  margin-top: 20px;
+  margin-left: 150px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #444;
+}

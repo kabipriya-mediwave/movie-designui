@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Movie</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#" class="active">Add Movie</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Add a Movie</h1>
+      <form id="add-movie-form">
+        <label for="movie-image">Image URL:</label>
+        <input type="text" id="movie-image" name="movie-image" required />
+        <label for="movie-title">Title:</label>
+        <input type="text" id="movie-title" name="movie-title" required />
+        <label for="movie-year">Year:</label>
+        <input type="number" id="movie-year" name="movie-year" required />
+        <label for="movie-rating">Rating:</label>
+        <select id="movie-rating" name="movie-rating" required>
+          <option value="1">⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+        </select>
+        <button type="submit">Add Movie</button>
+      </form>
+    </div>
+  </body>
+</html>
